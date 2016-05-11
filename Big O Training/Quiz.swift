@@ -6,14 +6,6 @@
 //  Copyright © 2016 MSquaredmm. All rights reserved.
 //
 
-//
-//  Quiz.swift
-//  Big O Training
-//
-//  Created by Mikael Mukhsikaroyan on 5/4/16.
-//  Copyright © 2016 MSquaredmm. All rights reserved.
-//
-
 import UIKit
 
 class Quiz {
@@ -21,6 +13,7 @@ class Quiz {
     var quizQuestions = [String: [String]]()
     
     enum answerType: String {
+        
         case constant = "O(1)"
         case logarithmic = "O(log n)"
         case linear = "O(n)"
@@ -28,7 +21,6 @@ class Quiz {
         case quadradic = "O(n^2)"
         case polynomial = "O(n^c)"
         case exponential = "O(c^n)"
-        
         
     }
     

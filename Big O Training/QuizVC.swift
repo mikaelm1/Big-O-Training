@@ -11,6 +11,8 @@ import pop
 
 class QuizVC: UIViewController {
     
+    @IBOutlet weak var buttonStackHeight: NSLayoutConstraint!
+    
     let screen = UIScreen.mainScreen().bounds 
     
     var currentCard: Card!
@@ -18,6 +20,8 @@ class QuizVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        buttonStackHeight.constant = screen.height * 0.25 
+        
     }
     
     override func viewWillAppear(animated: Bool) {

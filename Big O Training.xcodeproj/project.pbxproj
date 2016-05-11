@@ -98,7 +98,6 @@
 				70960EEE1CE39D780041A860 /* View */,
 				70960EED1CE39D720041A860 /* Model */,
 				70960EDB1CE39C820041A860 /* AppDelegate.swift */,
-				70960EDF1CE39C820041A860 /* Main.storyboard */,
 				70960EE21CE39C820041A860 /* Assets.xcassets */,
 				70960EE41CE39C820041A860 /* LaunchScreen.storyboard */,
 				70960EE71CE39C820041A860 /* Info.plist */,
@@ -120,6 +119,7 @@
 				70960EF41CE39EC10041A860 /* CustomButton.swift */,
 				70960EF81CE3A1FE0041A860 /* Card.xib */,
 				70960EFA1CE3A22B0041A860 /* Card.swift */,
+				70960EDF1CE39C820041A860 /* Main.storyboard */,
 			);
 			name = View;
 			sourceTree = "<group>";
