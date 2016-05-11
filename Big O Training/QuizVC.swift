@@ -17,6 +17,8 @@ class QuizVC: UIViewController {
     @IBOutlet weak var buttonB: UIButton!
     @IBOutlet weak var buttonC: UIButton!
     @IBOutlet weak var buttonD: UIButton!
+    @IBOutlet weak var rightCountLabel: UILabel!
+    @IBOutlet weak var wrongCountLabel: UILabel!
     
     let screen = UIScreen.mainScreen().bounds 
     
@@ -25,12 +27,17 @@ class QuizVC: UIViewController {
     var quiz: Quiz!
     var possibleAnswers = [String]()
     var correctButton = 10
+    var correctAnswers = 0
+    var wrongAnswers = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         buttons = [buttonA, buttonB, buttonC, buttonD]
-        buttonStackHeight.constant = screen.height * 0.25 
+        buttonStackHeight.constant = screen.height * 0.20
+        
+        rightCountLabel.text = "Correct: \(correctAnswers)"
+        wrongCountLabel.text = "Wrong: \(wrongAnswers)"
         
     }
     
@@ -73,7 +80,7 @@ class QuizVC: UIViewController {
     }
     
     func fitCardToScreen() -> CGRect {
-        return CGRectMake(screen.width * 0.05, screen.height * 0.1, screen.width * 0.9, screen.height * 0.5)
+        return CGRectMake(screen.width * 0.05, screen.height * 0.1, screen.width * 0.9, screen.height * 0.4)
     }
     
     func createCardFromNib() -> Card {
@@ -93,17 +100,26 @@ class QuizVC: UIViewController {
     @IBAction func buttonPressed(sender: UIButton) {
         enableUI(false)
         if sender.tag == correctButton {
+            correctAnswers += 1
+            rightCountLabel.text = "Correct: \(correctAnswers)"
+            sender.backgroundColor = UIColor.greenColor()
             delay(3, closure: {
                 self.enableUI(true)
-                sender.backgroundColor = UIColor.yellowColor()
+                sender.backgroundColor = Constants.customGreen
             })
             print("Correct!")
-            sender.backgroundColor = UIColor.blueColor()
+            
             //enableUI(true)
         } else {
+            wrongAnswers += 1
+            wrongCountLabel.text = "Wrong: \(wrongAnswers)"
             print("Wrong answer!")
+            buttons[correctButton - 1].backgroundColor = UIColor.greenColor()
+            sender.backgroundColor = UIColor.redColor()
             delay(3, closure: {
                 self.enableUI(true)
+                self.buttons[self.correctButton - 1].backgroundColor = Constants.customGreen
+                sender.backgroundColor = Constants.customGreen
             })
         }
         

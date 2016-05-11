@@ -18,4 +18,6 @@ class Constants {
     static let polynomial = "polynomial"
     static let exponential = "exponential"
     
+    static let customGreen = UIColor(red: 103/255, green: 190/255, blue: 149/255, alpha: 1)
+    
 }

@@ -22,10 +22,10 @@
                                 <rect key="frame" x="30" y="520" width="540" height="60"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="FuJ-wT-F2w">
-                                        <rect key="frame" x="0.0" y="0.0" width="267.5" height="60"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="268" height="60"/>
                                         <subviews>
                                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FLG-HE-3Xf" customClass="CustomButton" customModule="Big_O_Training" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="267.5" height="27.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="268" height="28"/>
                                                 <color key="backgroundColor" red="0.4039215686" green="0.74509803919999995" blue="0.58431372550000005" alpha="1" colorSpace="calibratedRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <connections>
@@ -33,7 +33,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y4I-Wr-DIg" customClass="CustomButton" customModule="Big_O_Training" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="32.5" width="267.5" height="27.5"/>
+                                                <rect key="frame" x="0.0" y="33" width="268" height="28"/>
                                                 <color key="backgroundColor" red="0.4039215686" green="0.74509803919999995" blue="0.58431372550000005" alpha="1" colorSpace="calibratedRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <connections>
@@ -43,10 +43,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="ihI-P4-wH7">
-                                        <rect key="frame" x="272.5" y="0.0" width="267.5" height="60"/>
+                                        <rect key="frame" x="273" y="0.0" width="268" height="60"/>
                                         <subviews>
                                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SOz-iF-HfM" customClass="CustomButton" customModule="Big_O_Training" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="267.5" height="27.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="268" height="28"/>
                                                 <color key="backgroundColor" red="0.4039215686" green="0.74509803919999995" blue="0.58431372550000005" alpha="1" colorSpace="calibratedRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <connections>
@@ -54,7 +54,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DYy-5z-4C5" customClass="CustomButton" customModule="Big_O_Training" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="32.5" width="267.5" height="27.5"/>
+                                                <rect key="frame" x="0.0" y="33" width="268" height="28"/>
                                                 <color key="backgroundColor" red="0.4039215686" green="0.74509803919999995" blue="0.58431372550000005" alpha="1" colorSpace="calibratedRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <connections>
@@ -68,12 +68,35 @@
                                     <constraint firstAttribute="height" constant="60" id="ycB-bK-uMz"/>
                                 </constraints>
                             </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="OsA-aX-Bcc">
+                                <rect key="frame" x="30" y="489" width="540" height="21"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o2F-7V-19e">
+                                        <rect key="frame" x="0.0" y="0.0" width="268" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F82-TL-1AI">
+                                        <rect key="frame" x="273" y="0.0" width="268" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="3uL-OK-jdb"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="9Xy-RU-AWr" secondAttribute="trailing" constant="10" id="0mS-vO-8x0"/>
+                            <constraint firstItem="OsA-aX-Bcc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="Dx9-dA-WMI"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="9Xy-RU-AWr" secondAttribute="bottom" constant="20" id="Xpl-hZ-LdR"/>
+                            <constraint firstItem="9Xy-RU-AWr" firstAttribute="top" secondItem="OsA-aX-Bcc" secondAttribute="bottom" constant="10" id="lZ2-bR-AXo"/>
                             <constraint firstItem="9Xy-RU-AWr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="m51-ZS-Mi0"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="OsA-aX-Bcc" secondAttribute="trailing" constant="10" id="ulN-Ge-tQE"/>
                         </constraints>
                     </view>
                     <connections>
@@ -82,6 +105,8 @@
                         <outlet property="buttonC" destination="SOz-iF-HfM" id="K1z-1w-8ta"/>
                         <outlet property="buttonD" destination="DYy-5z-4C5" id="aN5-Sd-XBf"/>
                         <outlet property="buttonStackHeight" destination="ycB-bK-uMz" id="WPr-BN-P6q"/>
+                        <outlet property="rightCountLabel" destination="o2F-7V-19e" id="dAv-ff-Som"/>
+                        <outlet property="wrongCountLabel" destination="F82-TL-1AI" id="9gI-wn-c9v"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
