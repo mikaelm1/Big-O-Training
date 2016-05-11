@@ -24,30 +24,42 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="FuJ-wT-F2w">
                                         <rect key="frame" x="0.0" y="0.0" width="267.5" height="60"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FLG-HE-3Xf" customClass="CustomButton" customModule="Big_O_Training" customModuleProvider="target">
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FLG-HE-3Xf" customClass="CustomButton" customModule="Big_O_Training" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="267.5" height="27.5"/>
                                                 <color key="backgroundColor" red="0.4039215686" green="0.74509803919999995" blue="0.58431372550000005" alpha="1" colorSpace="calibratedRGB"/>
                                                 <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tmK-yu-vyF"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y4I-Wr-DIg" customClass="CustomButton" customModule="Big_O_Training" customModuleProvider="target">
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y4I-Wr-DIg" customClass="CustomButton" customModule="Big_O_Training" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="32.5" width="267.5" height="27.5"/>
                                                 <color key="backgroundColor" red="0.4039215686" green="0.74509803919999995" blue="0.58431372550000005" alpha="1" colorSpace="calibratedRGB"/>
                                                 <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qj6-Sp-4Pr"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="ihI-P4-wH7">
                                         <rect key="frame" x="272.5" y="0.0" width="267.5" height="60"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SOz-iF-HfM" customClass="CustomButton" customModule="Big_O_Training" customModuleProvider="target">
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SOz-iF-HfM" customClass="CustomButton" customModule="Big_O_Training" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="267.5" height="27.5"/>
                                                 <color key="backgroundColor" red="0.4039215686" green="0.74509803919999995" blue="0.58431372550000005" alpha="1" colorSpace="calibratedRGB"/>
                                                 <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="M7y-bn-k31"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DYy-5z-4C5" customClass="CustomButton" customModule="Big_O_Training" customModuleProvider="target">
+                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DYy-5z-4C5" customClass="CustomButton" customModule="Big_O_Training" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="32.5" width="267.5" height="27.5"/>
                                                 <color key="backgroundColor" red="0.4039215686" green="0.74509803919999995" blue="0.58431372550000005" alpha="1" colorSpace="calibratedRGB"/>
                                                 <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HqW-wR-lbo"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -65,6 +77,10 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="buttonA" destination="FLG-HE-3Xf" id="Beh-8z-dQa"/>
+                        <outlet property="buttonB" destination="Y4I-Wr-DIg" id="Y5B-6b-yyv"/>
+                        <outlet property="buttonC" destination="SOz-iF-HfM" id="K1z-1w-8ta"/>
+                        <outlet property="buttonD" destination="DYy-5z-4C5" id="aN5-Sd-XBf"/>
                         <outlet property="buttonStackHeight" destination="ycB-bK-uMz" id="WPr-BN-P6q"/>
                     </connections>
                 </viewController>

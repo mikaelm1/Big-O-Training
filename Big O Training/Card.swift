@@ -25,7 +25,6 @@ class Card: UIView {
         questionLabel.font = UIFont(name: "Helvetica Neue", size: 16)
         questionLabel.adjustsFontSizeToFitWidth = true
         questionLabel.clipsToBounds = true
-        questionLabel.text = "Sample text"
     }
 
     func setupView() {
