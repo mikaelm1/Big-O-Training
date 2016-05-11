@@ -24,12 +24,14 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="FuJ-wT-F2w">
                                         <rect key="frame" x="0.0" y="0.0" width="257.5" height="60"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FLG-HE-3Xf">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FLG-HE-3Xf" customClass="CustomButton" customModule="Big_O_Training" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="257.5" height="27.5"/>
+                                                <color key="backgroundColor" red="0.4039215686" green="0.74509803919999995" blue="0.58431372550000005" alpha="1" colorSpace="calibratedRGB"/>
                                                 <state key="normal" title="Button"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y4I-Wr-DIg">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y4I-Wr-DIg" customClass="CustomButton" customModule="Big_O_Training" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="32.5" width="257.5" height="27.5"/>
+                                                <color key="backgroundColor" red="0.4039215686" green="0.74509803919999995" blue="0.58431372550000005" alpha="1" colorSpace="calibratedRGB"/>
                                                 <state key="normal" title="Button"/>
                                             </button>
                                         </subviews>
@@ -37,12 +39,14 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="ihI-P4-wH7">
                                         <rect key="frame" x="262.5" y="0.0" width="257.5" height="60"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SOz-iF-HfM">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SOz-iF-HfM" customClass="CustomButton" customModule="Big_O_Training" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="257.5" height="27.5"/>
+                                                <color key="backgroundColor" red="0.4039215686" green="0.74509803919999995" blue="0.58431372550000005" alpha="1" colorSpace="calibratedRGB"/>
                                                 <state key="normal" title="Button"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DYy-5z-4C5">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DYy-5z-4C5" customClass="CustomButton" customModule="Big_O_Training" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="32.5" width="257.5" height="27.5"/>
+                                                <color key="backgroundColor" red="0.4039215686" green="0.74509803919999995" blue="0.58431372550000005" alpha="1" colorSpace="calibratedRGB"/>
                                                 <state key="normal" title="Button"/>
                                             </button>
                                         </subviews>

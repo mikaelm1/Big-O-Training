@@ -12,6 +12,7 @@
 		70960EE11CE39C820041A860 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70960EDF1CE39C820041A860 /* Main.storyboard */; };
 		70960EE31CE39C820041A860 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70960EE21CE39C820041A860 /* Assets.xcassets */; };
 		70960EE61CE39C820041A860 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70960EE41CE39C820041A860 /* LaunchScreen.storyboard */; };
+		70960EF51CE39EC10041A860 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70960EF41CE39EC10041A860 /* CustomButton.swift */; };
 		D1865494A3B4CD98E0D93B70 /* Pods_Big_O_Training.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C41573BAFB5C8114AD68B38 /* Pods_Big_O_Training.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 		70960EE51CE39C820041A860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70960EE71CE39C820041A860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70960EF11CE39E240041A860 /* Big O Training-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Big O Training-Bridging-Header.h"; sourceTree = "<group>"; };
+		70960EF41CE39EC10041A860 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		7F78B1A7BE41AE343D4F3496 /* Pods-Big O Training.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Big O Training.release.xcconfig"; path = "Pods/Target Support Files/Pods-Big O Training/Pods-Big O Training.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,6 +88,7 @@
 		70960EEE1CE39D780041A860 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				70960EF41CE39EC10041A860 /* CustomButton.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -246,6 +249,7 @@
 			files = (
 				70960EDE1CE39C820041A860 /* ViewController.swift in Sources */,
 				70960EDC1CE39C820041A860 /* AppDelegate.swift in Sources */,
+				70960EF51CE39EC10041A860 /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
