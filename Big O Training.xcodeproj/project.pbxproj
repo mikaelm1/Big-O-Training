@@ -12,9 +12,12 @@
 		70960EE11CE39C820041A860 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70960EDF1CE39C820041A860 /* Main.storyboard */; };
 		70960EE31CE39C820041A860 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70960EE21CE39C820041A860 /* Assets.xcassets */; };
 		70960EE61CE39C820041A860 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70960EE41CE39C820041A860 /* LaunchScreen.storyboard */; };
+		D1865494A3B4CD98E0D93B70 /* Pods_Big_O_Training.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C41573BAFB5C8114AD68B38 /* Pods_Big_O_Training.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C41573BAFB5C8114AD68B38 /* Pods_Big_O_Training.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Big_O_Training.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		498002DA68B4138E7987B8DD /* Pods-Big O Training.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Big O Training.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Big O Training/Pods-Big O Training.debug.xcconfig"; sourceTree = "<group>"; };
 		70960ED81CE39C820041A860 /* Big O Training.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Big O Training.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70960EDB1CE39C820041A860 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70960EDD1CE39C820041A860 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,8 @@
 		70960EE21CE39C820041A860 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70960EE51CE39C820041A860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70960EE71CE39C820041A860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70960EF11CE39E240041A860 /* Big O Training-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Big O Training-Bridging-Header.h"; sourceTree = "<group>"; };
+		7F78B1A7BE41AE343D4F3496 /* Pods-Big O Training.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Big O Training.release.xcconfig"; path = "Pods/Target Support Files/Pods-Big O Training/Pods-Big O Training.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1865494A3B4CD98E0D93B70 /* Pods_Big_O_Training.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +46,8 @@
 			children = (
 				70960EDA1CE39C820041A860 /* Big O Training */,
 				70960ED91CE39C820041A860 /* Products */,
+				811253E46711745679610733 /* Pods */,
+				DBA08803249B3A4C9EA07E01 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +62,10 @@
 		70960EDA1CE39C820041A860 /* Big O Training */ = {
 			isa = PBXGroup;
 			children = (
+				70960EF01CE39E110041A860 /* Util */,
+				70960EEF1CE39D7D0041A860 /* Controller */,
+				70960EEE1CE39D780041A860 /* View */,
+				70960EED1CE39D720041A860 /* Model */,
 				70960EDB1CE39C820041A860 /* AppDelegate.swift */,
 				70960EDD1CE39C820041A860 /* ViewController.swift */,
 				70960EDF1CE39C820041A860 /* Main.storyboard */,
@@ -64,6 +76,52 @@
 			path = "Big O Training";
 			sourceTree = "<group>";
 		};
+		70960EED1CE39D720041A860 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		70960EEE1CE39D780041A860 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		70960EEF1CE39D7D0041A860 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		70960EF01CE39E110041A860 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				70960EF11CE39E240041A860 /* Big O Training-Bridging-Header.h */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		811253E46711745679610733 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				498002DA68B4138E7987B8DD /* Pods-Big O Training.debug.xcconfig */,
+				7F78B1A7BE41AE343D4F3496 /* Pods-Big O Training.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DBA08803249B3A4C9EA07E01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C41573BAFB5C8114AD68B38 /* Pods_Big_O_Training.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +129,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 70960EEA1CE39C820041A860 /* Build configuration list for PBXNativeTarget "Big O Training" */;
 			buildPhases = (
+				9339A6D42BB388D6553C5D74 /* Check Pods Manifest.lock */,
 				70960ED41CE39C820041A860 /* Sources */,
 				70960ED51CE39C820041A860 /* Frameworks */,
 				70960ED61CE39C820041A860 /* Resources */,
+				0FC49DE16C753891DB963301 /* Embed Pods Frameworks */,
+				B69FE1A31B80325BECC79200 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,6 +190,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FC49DE16C753891DB963301 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Big O Training/Pods-Big O Training-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9339A6D42BB388D6553C5D74 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B69FE1A31B80325BECC79200 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Big O Training/Pods-Big O Training-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		70960ED41CE39C820041A860 /* Sources */ = {
@@ -247,23 +356,30 @@
 		};
 		70960EEB1CE39C820041A860 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 498002DA68B4138E7987B8DD /* Pods-Big O Training.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Big O Training/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.msquaredmm.Big-O-Training";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Big O Training/Big O Training-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		70960EEC1CE39C820041A860 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F78B1A7BE41AE343D4F3496 /* Pods-Big O Training.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Big O Training/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.msquaredmm.Big-O-Training";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Big O Training/Big O Training-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -286,6 +402,7 @@
 				70960EEC1CE39C820041A860 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
