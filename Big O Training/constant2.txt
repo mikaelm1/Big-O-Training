@@ -1,0 +1,7 @@
+func getRemainder(a: Int, b: Int) -> Int {
+    if b <= 0 {
+        return -1
+    }
+    let division = a / b
+    return a - division * b
+}

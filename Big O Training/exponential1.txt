@@ -1,0 +1,7 @@
+func printPairsFrom(pList: [String]) {
+    for i in pList {
+        for j in pList {
+            print("\(i),\(j)")
+        }
+    }
+}

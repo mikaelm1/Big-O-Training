@@ -1,0 +1,11 @@
+func sumAndProduct(intList: [Int]) {
+    var sum = 0
+    var product = 1
+    for i in intList {
+        sum += i
+    }
+    for i in intList {
+        product *= i
+    }
+    print("\(sum), \(product)")
+}

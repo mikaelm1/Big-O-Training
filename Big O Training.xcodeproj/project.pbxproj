@@ -8,11 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		70960EDC1CE39C820041A860 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70960EDB1CE39C820041A860 /* AppDelegate.swift */; };
-		70960EDE1CE39C820041A860 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70960EDD1CE39C820041A860 /* ViewController.swift */; };
 		70960EE11CE39C820041A860 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70960EDF1CE39C820041A860 /* Main.storyboard */; };
 		70960EE31CE39C820041A860 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70960EE21CE39C820041A860 /* Assets.xcassets */; };
 		70960EE61CE39C820041A860 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70960EE41CE39C820041A860 /* LaunchScreen.storyboard */; };
 		70960EF51CE39EC10041A860 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70960EF41CE39EC10041A860 /* CustomButton.swift */; };
+		70960EF91CE3A1FE0041A860 /* Card.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70960EF81CE3A1FE0041A860 /* Card.xib */; };
+		70960EFB1CE3A22B0041A860 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70960EFA1CE3A22B0041A860 /* Card.swift */; };
+		70960EFD1CE3A3F10041A860 /* QuizVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70960EFC1CE3A3F10041A860 /* QuizVC.swift */; };
+		70960EFF1CE3B22C0041A860 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70960EFE1CE3B22C0041A860 /* Quiz.swift */; };
+		70960F011CE3B25E0041A860 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70960F001CE3B25E0041A860 /* Constants.swift */; };
+		70960F0D1CE3B2B10041A860 /* constant1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 70960F031CE3B2B10041A860 /* constant1.txt */; };
+		70960F0E1CE3B2B10041A860 /* constant2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 70960F041CE3B2B10041A860 /* constant2.txt */; };
+		70960F0F1CE3B2B10041A860 /* exponential1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 70960F051CE3B2B10041A860 /* exponential1.txt */; };
+		70960F101CE3B2B10041A860 /* exponential2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 70960F061CE3B2B10041A860 /* exponential2.txt */; };
+		70960F111CE3B2B10041A860 /* exponential3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 70960F071CE3B2B10041A860 /* exponential3.txt */; };
+		70960F121CE3B2B10041A860 /* linear1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 70960F081CE3B2B10041A860 /* linear1.txt */; };
+		70960F131CE3B2B10041A860 /* linear2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 70960F091CE3B2B10041A860 /* linear2.txt */; };
+		70960F141CE3B2B10041A860 /* linearithmic1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 70960F0A1CE3B2B10041A860 /* linearithmic1.txt */; };
+		70960F151CE3B2B10041A860 /* logarithmic1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 70960F0B1CE3B2B10041A860 /* logarithmic1.txt */; };
+		70960F161CE3B2B10041A860 /* logarithmic2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 70960F0C1CE3B2B10041A860 /* logarithmic2.txt */; };
 		D1865494A3B4CD98E0D93B70 /* Pods_Big_O_Training.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C41573BAFB5C8114AD68B38 /* Pods_Big_O_Training.framework */; };
 /* End PBXBuildFile section */
 
@@ -21,13 +35,27 @@
 		498002DA68B4138E7987B8DD /* Pods-Big O Training.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Big O Training.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Big O Training/Pods-Big O Training.debug.xcconfig"; sourceTree = "<group>"; };
 		70960ED81CE39C820041A860 /* Big O Training.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Big O Training.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70960EDB1CE39C820041A860 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		70960EDD1CE39C820041A860 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		70960EE01CE39C820041A860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		70960EE21CE39C820041A860 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70960EE51CE39C820041A860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70960EE71CE39C820041A860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70960EF11CE39E240041A860 /* Big O Training-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Big O Training-Bridging-Header.h"; sourceTree = "<group>"; };
 		70960EF41CE39EC10041A860 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		70960EF81CE3A1FE0041A860 /* Card.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Card.xib; sourceTree = "<group>"; };
+		70960EFA1CE3A22B0041A860 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		70960EFC1CE3A3F10041A860 /* QuizVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizVC.swift; sourceTree = "<group>"; };
+		70960EFE1CE3B22C0041A860 /* Quiz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
+		70960F001CE3B25E0041A860 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		70960F031CE3B2B10041A860 /* constant1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = constant1.txt; sourceTree = "<group>"; };
+		70960F041CE3B2B10041A860 /* constant2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = constant2.txt; sourceTree = "<group>"; };
+		70960F051CE3B2B10041A860 /* exponential1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = exponential1.txt; sourceTree = "<group>"; };
+		70960F061CE3B2B10041A860 /* exponential2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = exponential2.txt; sourceTree = "<group>"; };
+		70960F071CE3B2B10041A860 /* exponential3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = exponential3.txt; sourceTree = "<group>"; };
+		70960F081CE3B2B10041A860 /* linear1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = linear1.txt; sourceTree = "<group>"; };
+		70960F091CE3B2B10041A860 /* linear2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = linear2.txt; sourceTree = "<group>"; };
+		70960F0A1CE3B2B10041A860 /* linearithmic1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = linearithmic1.txt; sourceTree = "<group>"; };
+		70960F0B1CE3B2B10041A860 /* logarithmic1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = logarithmic1.txt; sourceTree = "<group>"; };
+		70960F0C1CE3B2B10041A860 /* logarithmic2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = logarithmic2.txt; sourceTree = "<group>"; };
 		7F78B1A7BE41AE343D4F3496 /* Pods-Big O Training.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Big O Training.release.xcconfig"; path = "Pods/Target Support Files/Pods-Big O Training/Pods-Big O Training.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,12 +92,12 @@
 		70960EDA1CE39C820041A860 /* Big O Training */ = {
 			isa = PBXGroup;
 			children = (
+				70960F021CE3B2770041A860 /* Resources */,
 				70960EF01CE39E110041A860 /* Util */,
 				70960EEF1CE39D7D0041A860 /* Controller */,
 				70960EEE1CE39D780041A860 /* View */,
 				70960EED1CE39D720041A860 /* Model */,
 				70960EDB1CE39C820041A860 /* AppDelegate.swift */,
-				70960EDD1CE39C820041A860 /* ViewController.swift */,
 				70960EDF1CE39C820041A860 /* Main.storyboard */,
 				70960EE21CE39C820041A860 /* Assets.xcassets */,
 				70960EE41CE39C820041A860 /* LaunchScreen.storyboard */,
@@ -81,6 +109,7 @@
 		70960EED1CE39D720041A860 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				70960EFE1CE3B22C0041A860 /* Quiz.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -89,6 +118,8 @@
 			isa = PBXGroup;
 			children = (
 				70960EF41CE39EC10041A860 /* CustomButton.swift */,
+				70960EF81CE3A1FE0041A860 /* Card.xib */,
+				70960EFA1CE3A22B0041A860 /* Card.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -96,6 +127,7 @@
 		70960EEF1CE39D7D0041A860 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				70960EFC1CE3A3F10041A860 /* QuizVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -104,8 +136,26 @@
 			isa = PBXGroup;
 			children = (
 				70960EF11CE39E240041A860 /* Big O Training-Bridging-Header.h */,
+				70960F001CE3B25E0041A860 /* Constants.swift */,
 			);
 			name = Util;
+			sourceTree = "<group>";
+		};
+		70960F021CE3B2770041A860 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				70960F031CE3B2B10041A860 /* constant1.txt */,
+				70960F041CE3B2B10041A860 /* constant2.txt */,
+				70960F051CE3B2B10041A860 /* exponential1.txt */,
+				70960F061CE3B2B10041A860 /* exponential2.txt */,
+				70960F071CE3B2B10041A860 /* exponential3.txt */,
+				70960F081CE3B2B10041A860 /* linear1.txt */,
+				70960F091CE3B2B10041A860 /* linear2.txt */,
+				70960F0A1CE3B2B10041A860 /* linearithmic1.txt */,
+				70960F0B1CE3B2B10041A860 /* logarithmic1.txt */,
+				70960F0C1CE3B2B10041A860 /* logarithmic2.txt */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		811253E46711745679610733 /* Pods */ = {
@@ -187,8 +237,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				70960EE61CE39C820041A860 /* LaunchScreen.storyboard in Resources */,
+				70960F0F1CE3B2B10041A860 /* exponential1.txt in Resources */,
+				70960F111CE3B2B10041A860 /* exponential3.txt in Resources */,
 				70960EE31CE39C820041A860 /* Assets.xcassets in Resources */,
+				70960F131CE3B2B10041A860 /* linear2.txt in Resources */,
+				70960F161CE3B2B10041A860 /* logarithmic2.txt in Resources */,
+				70960F141CE3B2B10041A860 /* linearithmic1.txt in Resources */,
 				70960EE11CE39C820041A860 /* Main.storyboard in Resources */,
+				70960F151CE3B2B10041A860 /* logarithmic1.txt in Resources */,
+				70960EF91CE3A1FE0041A860 /* Card.xib in Resources */,
+				70960F0D1CE3B2B10041A860 /* constant1.txt in Resources */,
+				70960F121CE3B2B10041A860 /* linear1.txt in Resources */,
+				70960F0E1CE3B2B10041A860 /* constant2.txt in Resources */,
+				70960F101CE3B2B10041A860 /* exponential2.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,9 +308,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70960EDE1CE39C820041A860 /* ViewController.swift in Sources */,
 				70960EDC1CE39C820041A860 /* AppDelegate.swift in Sources */,
+				70960EFF1CE3B22C0041A860 /* Quiz.swift in Sources */,
+				70960EFD1CE3A3F10041A860 /* QuizVC.swift in Sources */,
 				70960EF51CE39EC10041A860 /* CustomButton.swift in Sources */,
+				70960EFB1CE3A22B0041A860 /* Card.swift in Sources */,
+				70960F011CE3B25E0041A860 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,7 @@
+func printUnorderedPairsFrom(pList: [String]) {
+    for i in pList {
+        for j in 1..<pList.count {
+            print("\(i),\(pList[j])")
+        }
+    }
+}

@@ -1,0 +1,13 @@
+func powersOfTwo(n: Int) -> Int {
+    if n < 0 {
+        return -1
+    } else if n == 1 {
+        print(1)
+        return 1
+    } else {
+        let previous = powersOfTwo(n/2)
+        let current = previous * 2
+        print(current)
+        return current
+    }
+}

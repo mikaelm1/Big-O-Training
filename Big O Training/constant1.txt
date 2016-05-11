@@ -1,0 +1,6 @@
+func getFirst(arr: [String]) -> String {
+    for i in 0...1000 {
+        return arr[0]
+    }
+    return ""
+}
